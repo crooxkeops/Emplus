@@ -15,10 +15,10 @@ define('APP_IDIOMA', 'ES');
 //Otras Variables Segundarias Post-Declaradas.
 
 //Variables de Configuracion de Conexion con el Servidor.
-define('DB_SERVER', 'localhost');
-define('DB_USERNAME', 'root');
-define('DB_PASSWORD', '');
-define('DB_DATABASE', 'emplus');
+define('DB_SERVER', 'us-east.connect.psdb.cloud');
+define('DB_USERNAME', 'lpn9be5hy61gs1olu2sl');
+define('DB_PASSWORD', 'pscale_pw_Um4pqze063dOoOhP4RAwTvBny6i3WcEv0mgeTmNU1eS');
+define('DB_DATABASE', 'prometeo');
 
 //Variable de Mysql de conexion de base de datos.
 global $db;
