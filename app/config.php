@@ -16,11 +16,18 @@ define('APP_IDIOMA', 'ES');
 
 //Variables de Configuracion de Conexion con el Servidor.
 define('DB_SERVER', 'localhost');
+<<<<<<< Updated upstream
 define('DB_USERNAME', 'id20367169_user');
 define('DB_PASSWORD', '$1045713393Softcroox');
 define('DB_DATABASE', 'id20367169_Emplus');
+=======
+define('DB_USERNAME', 'root');
+define('DB_PASSWORD', '');
+define('DB_DATABASE', 'emplus');
+>>>>>>> Stashed changes
 
 //Variable de Mysql de conexion de base de datos.
+
 global $db;
 $db = mysqli_connect(DB_SERVER,DB_USERNAME,DB_PASSWORD,DB_DATABASE);
 
